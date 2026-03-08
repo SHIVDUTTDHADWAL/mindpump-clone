@@ -1,0 +1,277 @@
+/* =====================================
+TABLET
+===================================== */
+
+@media (max-width:1024px){
+
+/* NAVBAR */
+
+.container{
+padding:0 20px;
+}
+
+.menu{
+display:none;
+flex-direction:column;
+background:#111;
+position:absolute;
+top:105px;
+left:0;
+width:100%;
+padding:25px;
+gap:18px;
+}
+
+.menu.active{
+display:flex;
+}
+
+.hamburger{
+display:block;
+color:white;
+font-size:28px;
+cursor:pointer;
+margin-left:auto;
+}
+
+/* Disable dropdown hover on mobile */
+
+.dropdown:hover .dropdown-menu{
+display:none;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+padding-top:80px;
+}
+
+.hero h1{
+font-size:30px;
+padding:0 20px;
+}
+
+.hero-buttons{
+flex-direction:column;
+align-items:center;
+gap:12px;
+}
+
+.btn{
+margin-top:20px;
+}
+
+/* Social icons */
+
+.social-icons{
+top:50%;
+}
+
+.social-icons a{
+width:38px;
+height:38px;
+}
+
+/* MAPS GRID */
+
+.maps-grid{
+flex-direction:column;
+gap:30px;
+}
+
+/* RESOURCES */
+
+.resources-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+/* BLOG */
+
+.blog-grid{
+grid-template-columns:1fr;
+}
+
+/* VIDEO */
+
+.video-container{
+flex-direction:column;
+align-items:center;
+}
+
+/* COACHING */
+
+.card-scroll{
+grid-template-columns:repeat(2,1fr);
+}
+
+/* FOCUS SECTION */
+
+.focus-content h2{
+font-size:20px;
+padding:0 20px;
+}
+
+/* FOOTER */
+
+.footer{
+padding:60px 40px;
+}
+
+.footer-top{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.footer-links{
+grid-template-columns:1fr 1fr;
+}
+
+.subscribe-box{
+width:100%;
+}
+
+.footer-bottom{
+margin-top:30px;
+}
+
+}
+
+
+/* =====================================
+MOBILE
+===================================== */
+
+@media (max-width:768px){
+
+/* HERO FIX */
+
+.hero{
+height:auto;
+padding:120px 20px 80px;
+}
+
+.hero h1{
+font-size:24px;
+line-height:1.4;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons{
+display:none;
+}
+
+/* PRESS */
+
+.press-slider{
+padding:80px 20px;
+}
+
+.slide p{
+font-size:14px;
+}
+
+/* ABOUT */
+
+.about-section{
+padding:80px 20px;
+}
+
+.about-container h2{
+font-size:28px;
+}
+
+.about-container p{
+font-size:16px;
+}
+
+/* MAPS */
+
+.maps-section{
+padding:80px 20px;
+}
+
+.maps-section h2{
+font-size:28px;
+}
+
+/* FAQ */
+
+.faq-title{
+font-size:28px;
+}
+
+/* RESOURCES */
+
+.resources-grid{
+grid-template-columns:1fr;
+}
+
+/* NEWSLETTER */
+
+.newsletter-overlay h2{
+font-size:30px;
+}
+
+.subscribe-box{
+flex-direction:column;
+}
+
+.subscribe-box input{
+width:100%;
+}
+
+.subscribe-box button{
+width:100%;
+}
+
+/* COACHING */
+
+.coaching h1{
+font-size:46px;
+}
+
+.coaching h2{
+font-size:28px;
+}
+
+.desc{
+font-size:18px;
+}
+
+/* CARDS */
+
+.card-scroll{
+grid-template-columns:1fr;
+}
+
+/* BLOG */
+
+.blog-section{
+padding:60px 20px;
+}
+
+.blog-section h2{
+font-size:28px;
+}
+
+/* FOOTER */
+
+.footer{
+padding:60px 20px;
+}
+
+.footer-links{
+grid-template-columns:1fr;
+}
+
+.footer-bottom h2{
+font-size:32px;
+}
+
+}
